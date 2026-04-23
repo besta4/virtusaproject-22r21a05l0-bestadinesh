@@ -1,0 +1,12 @@
+PS C:\Users\besta\Downloads\virtusa\smrt-pay> java SmartPayBiller      
+Enter Customer Name (or type 'Exit' to quit): diensh
+Enter Previous Meter Reading: 34
+Enter Current Meter Reading: 42
+DIGITAL RECEIPT:
+Customer Name   : diensh
+Units Consumed  : 8
+Base Amount     : $8.0
+Tax (10%)       : $0.8
+Final Amount    : $8.8
+
+Enter Customer Name (or type 'Exit' to quit):

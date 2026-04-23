@@ -1,0 +1,20 @@
+PS C:\Users\besta\Downloads\virtusa\social-media> python content_moderator.py
+CLEANED POSTS:
+
+Raju: I *** this platform http://***link.com
+Dinesh: This is a good day
+Harsh: Such a *** environment visit http://example.com
+Tej: No *** vibes here
+Abhi: Check this out http://coolstuff.com
+
+MODERATION REPORT:
+Total Posts Screened: 5
+Cleaned: 4
+Blocked: 3
+
+USER FLAG SUMMARY:
+Raju: 2 reports
+Dinesh: 0 reports
+Harsh: 1 reports
+Tej: 1 reports
+Abhi: 0 reports

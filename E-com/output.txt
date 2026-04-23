@@ -1,0 +1,28 @@
+1. Delayed Shipments Output
+--------------------------------
+ShipmentID | PartnerID | PromisedDate | ActualDeliveryDate
+1          | 1         | 2026-04-10   | 2026-04-11
+3          | 1         | 2026-04-15   | 2026-04-18
+5          | 2         | 2026-04-16   | 2026-04-20
+
+
+2. Partner Performance (Successful vs Returned)
+----------------------------------------------
+PartnerName          | SuccessfulDeliveries | ReturnedDeliveries
+FastTrack Logistics  | 1                    | 0
+QuickMove Couriers   | 1                    | 1
+SpeedX Delivery      | 2                    | 0
+
+
+3. Most Popular Destination City (Last 30 Days)
+------------------------------------------------
+DestinationCity | TotalOrders
+Bangalore       | 2
+
+
+4. Final Partner Scorecard (Fewest Delays Ranking)
+--------------------------------------------------
+PartnerName          | TotalShipments | DelayedShipments | SuccessRatePercentage
+SpeedX Delivery      | 2              | 0                | 100.00
+QuickMove Couriers   | 2              | 1                | 50.00
+FastTrack Logistics  | 2              | 2                | 50.00
