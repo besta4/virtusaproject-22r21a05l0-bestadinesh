@@ -37,9 +37,12 @@ for post in posts:
 
     print(f"{post['user']}: {cleaned_text}")
 
-with open("links_found.txt", "w") as file:
-    for link in links:
-        file.write(link + "\n")
+file = open("links_found.txt", "w")
+
+for link in links:
+    file.write(link + "\n")
+
+file.close()
 
 print("\nMODERATION REPORT:")
 print(f"Total Posts Screened: {total_posts}")
