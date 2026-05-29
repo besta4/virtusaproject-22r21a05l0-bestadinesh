@@ -14,15 +14,6 @@ total_posts = len(posts)
 cleaned = 0
 blocked = 0
 
-
-user_flags = {
-    "Raju": 2,
-    "Dinesh": 0,
-    "Harsh": 1,
-    "Tej": 1,
-    "Abhi": 0
-}
-
 links = []
 
 print("CLEANED POSTS:\n")
@@ -54,7 +45,3 @@ print("\nMODERATION REPORT:")
 print(f"Total Posts Screened: {total_posts}")
 print(f"Cleaned: {cleaned}")
 print(f"Blocked: {blocked}")
-
-print("\nUSER FLAG SUMMARY:")
-for user, count in user_flags.items():
-    print(f"{user}: {count} reports")
